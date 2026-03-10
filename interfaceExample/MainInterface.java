@@ -18,9 +18,6 @@ class DisplayMessage implements Message{
   public void displayMsg(String msg){
     System.out.println("this is child 2 class method");
   }
-  private void displayInfo(){
-    System.out.println("this is private");
-  }
 
 }
 public class MainInterface {
