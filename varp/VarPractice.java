@@ -12,11 +12,11 @@ public class VarPractice {
     var map = new HashMap<Integer, String>();
     var number = 20;
 
-        list.add(10);
-        map.put(1, "Hello");
+    list.add(10);
+    map.put(1, "Hello");
 
-        System.out.println(list);
-        System.out.println(map);
-        System.out.println(number);
+    System.out.println(list);
+    System.out.println(map);
+    System.out.println(number);
   }
 }
