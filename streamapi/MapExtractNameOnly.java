@@ -6,11 +6,11 @@ import java.util.List;
 
 public class MapExtractNameOnly {
   public static void main(String[] args){
-    List<String> name=Arrays.asList("rahul","ananya","sachin");
-    ArrayList<String> list= new ArrayList<>();
-    list.addAll(name);
-    System.out.println(list);
-    List<String> firstChar = list.stream().map(n->n.substring(0,1)).toList();
-    System.out.println(firstChar);
+    List<String> string = Arrays.asList("10","20","30");
+    ArrayList<String> arr = new ArrayList<>();
+    arr.addAll(string);
+    List<Integer> result = arr.stream().map(x->Integer.parseInt(x)).toList();
+    System.out.println(result);
+    
   }
 }
