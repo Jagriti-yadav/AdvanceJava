@@ -14,3 +14,4 @@ public class MapFirstChar {
     System.out.println(firstChar);
   }
 }
+ 
